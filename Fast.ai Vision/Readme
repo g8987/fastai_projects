@@ -1,0 +1,95 @@
+# 🌿 Plant Disease Classifier | Fast.ai Vision Project  
+
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
+![Fastai](https://img.shields.io/badge/Fast.ai-v2.7-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13-red?logo=pytorch)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 🧭 Overview  
+A deep learning project built using **Fast.ai** and **ResNet18** to automatically detect plant leaf diseases with over **98% validation accuracy** 🌱.  
+This project demonstrates a complete **computer vision pipeline** — from dataset preparation and model training to evaluation and interpretability.
+
+---
+
+## 🧠 Project Motivation  
+Agriculture relies heavily on early disease detection to prevent crop losses.  
+This project automates the process using AI, allowing faster, more accurate plant health assessment.
+
+---
+
+## 🧰 Tech Stack  
+
+| Category | Tools |
+|-----------|-------|
+| Language | Python 🐍 |
+| Frameworks | Fast.ai, PyTorch |
+| Visualization | Matplotlib |
+| IDE | Jupyter / Google Colab |
+
+---
+
+## 📂 Dataset  
+
+**PlantVillage Dataset** (Kaggle)  
+➡️ [Dataset Link](https://www.kaggle.com/datasets/emmarex/plantdisease)
+
+Structure:  
+Dataset/
+├── Apple___Black_rot/
+├── Apple___healthy/
+├── Corn___Common_rust/
+├── Grape___Esca_(Black_Measles)/
+└── ...
+
+
+Each folder represents one class label for plant diseases.
+
+---
+
+## ⚙️ Model Workflow  
+
+### 🧩 Data Preparation
+```python
+from fastai.vision.all import *
+
+path = Path('dataset')
+
+dls = DataBlock(
+    blocks=(ImageBlock, CategoryBlock),
+    get_items=get_image_files,
+    splitter=RandomSplitter(valid_pct=0.2, seed=42),
+    get_y=parent_label,
+    item_tfms=[Resize(192, method='squish')]
+).dataloaders(path, bs=32)
+
+dls.show_batch(max_n=6, figsize=(8,6))
+
+Model Training
+learn = vision_learner(dls, resnet18, metrics=error_rate)
+
+Evaluation
+error_rate_val = learn.validate()[1]
+print(f"Validation Error Rate: {error_rate_val:.4f}")
+
+interp = ClassificationInterpretation.from_learner(learn)
+interp.plot_confusion_matrix(figsize=(8,8))
+interp.plot_top_losses(6, nrows=2)
+
+learn.fine_tune(3)
+
+Prediction on New Images
+img = PILImage.create('test_leaf.jpg')
+pred, pred_idx, probs = learn.predict(img)
+
+print(f"Prediction: {pred}")
+print(f"Confidence: {probs[pred_idx]*100:.2f}%")
+
+🧩 Key Concepts
+🔢 Softmax Function: Converts raw model logits into probabilities that sum to 1.
+Cross Entropy Loss: Penalizes the model for low confidence in the correct class.
+
+Author
+Gaurav Sinha
+AI/ML Enthusiast | Data Analyst | Fast.ai Practitioner
