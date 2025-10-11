@@ -5,6 +5,7 @@
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
 | [Patent Phrase Semantic Similarity]| Fine-tuned Transformer for semantic similarity on US Patent dataset (Pearson r=0.83) | Hugging Face, PyTorch |
+| [Neural Network from Scratch] | Multi-layer perceptron built using pure PyTorch tensors (achieved ~82% accuracy on Titanic survival prediction) | Python, PyTorch, NumPy |
 | [Plant Disease Classifier] | CNN-based vision model for leaf disease detection (98% accuracy) | Fast.ai, PyTorch |
 
 ---
