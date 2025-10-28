@@ -1,4 +1,5 @@
 Movie Recommendation System — Implementing Probabilistic Matrix Factorization (PMF) and Neural Collaborative Filtering (NCF) from Scratch
+
 📖 Overview
 This project demonstrates the end-to-end implementation of a Movie Recommendation System using Probabilistic Matrix Factorization (PMF) and its neural extension, Neural Collaborative Filtering (CollabNN), built completely from scratch using FastAI and PyTorch.
 The goal of this project is to move beyond pre-built libraries and understand how user–item interactions can be modeled mathematically and then extended into a learnable neural network architecture.
