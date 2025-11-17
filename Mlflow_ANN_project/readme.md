@@ -158,7 +158,4 @@ into one reproducible, automated workflow — showcasing your ability to build, 
 
 ---
 
-## 👨‍💻 Author
-**Gaurav Sinha (Owner Sir)**  
-📍 MLOps Enthusiast | Data Analyst | AI Practitioner  
-🚀 Passionate about automation, tracking, and GenAI-based AI workflows.
+
