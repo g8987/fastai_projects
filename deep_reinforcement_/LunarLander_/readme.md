@@ -23,7 +23,7 @@ video/ — agent gameplay video
 
 🤗 Trained Model on Hugging Face- https://huggingface.co/Gauravsinhasinha/ppo-LunarLander-v2/tree/main/ppo-LunarLander-v2
 
-to load model:
+▶️ Load and Run the Trained Model
 from stable_baselines3 import PPO
 import gymnasium as gym
 
