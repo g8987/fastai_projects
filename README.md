@@ -4,6 +4,7 @@
 ### Featured Projects  
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
+|Lunar Lander Reinforcement Learning (PPO Agent)|Trained a Proximal Policy Optimization (PPO) agent on the LunarLander-v2 environment using Stable-Baselines3. Achieved ~270 average reward over 1M timesteps, generated evaluation video/GIF, and deployed the trained model on the Hugging Face Hub. | Python, Stable-Baselines3, Gymnasium, PPO, HuggingFace Hub, PyTorch
 | [Patent Phrase Semantic Similarity]| Fine-tuned Transformer for semantic similarity on US Patent dataset (Pearson r=0.83) | Hugging Face, PyTorch |
 | [Neural Network from Scratch] | Multi-layer perceptron built using pure PyTorch tensors (achieved ~82% accuracy on Titanic survival prediction) | Python, PyTorch, NumPy |
 | [Plant Disease Classifier] | CNN-based vision model for leaf disease detection (98% accuracy) | Fast.ai, PyTorch |
@@ -13,8 +14,17 @@
 ---
 
 ### ⚙️ Tech Stack  
-Python · Fast.ai · Hugging Face · Scikit-learn · MLflow · DVC · GCP · Docker · Airflow  
+Languages & AI Frameworks:
+Python · PyTorch · TensorFlow · Fast.ai · Scikit-learn · Transformers · Hugging Face
 
+ML & MLOps:
+MLflow · DVC · Airflow · LangChain · LLMOps · Experiment Tracking · Model Deployment
+
+Cloud & DevOps:
+GCP · Azure · Docker · Git · GitHub Actions · CI/CD
+
+Data Tools:
+Pandas · NumPy · SQL (PostgreSQL, MySQL) · Data Pipelines · Feature Engineering
 ### 🌱 Currently Learning  
 LLMOps | Cloud ML Deployment | RAG Pipelines  
 
