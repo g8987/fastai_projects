@@ -48,6 +48,11 @@ model = PPO(
     ent_coef=0.01,
     verbose=1)
 
+🎥 Demo GIF
+
+Embedded above.
+You can also download it from Hugging Face:
+https://huggingface.co/Gauravsinhasinha/ppo-LunarLander-v2/resolve/main/lander.gif
 
     
 
