@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Gaurav Sinha  
-🚀 Machine Learning Engineer | NLP | MLOps | Generative AI  
+🚀 Data Science|Machine Learning  | NLP | MLOps | Generative AI  
 
 ### Featured Projects  
 | Project | Description | Tech Stack |
