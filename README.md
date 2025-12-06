@@ -4,6 +4,7 @@
 ### Featured Projects  
 | Project | Description | Tech Stack |
 |----------|--------------|-------------|
+|Credit Risk Analysis with Machine Learning|End-to-end credit default prediction pipeline using real-world Nubank client dataset. Exploratory analysis, missing-value handling, feature engineering, and model benchmarking across XGBoost, LightGBM & CatBoost. Achieved best recall with XGBoost (81%) for identifying high-risk defaulters.| XGBoost, LightGBM, CatBoost, Pandas, Scikit-learn, Python
 |Lunar Lander Reinforcement Learning (PPO Agent)|Trained a Proximal Policy Optimization (PPO) agent on the LunarLander-v2 environment using Stable-Baselines3. Achieved ~270 average reward over 1M timesteps, generated evaluation video/GIF, and deployed the trained model on the Hugging Face Hub. | Python, Stable-Baselines3, Gymnasium, PPO, HuggingFace Hub, PyTorch
 | [Patent Phrase Semantic Similarity]| Fine-tuned Transformer for semantic similarity on US Patent dataset (Pearson r=0.83) | Hugging Face, PyTorch |
 | [Neural Network from Scratch] | Multi-layer perceptron built using pure PyTorch tensors (achieved ~82% accuracy on Titanic survival prediction) | Python, PyTorch, NumPy |
