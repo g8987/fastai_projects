@@ -1,5 +1,6 @@
 The main aim of this project is to explore the dataset and discuss some interesting observations through visualizations and train machine learning models to predict the probabilty of default (PD), Loss given default (LGD) and Exposure at default (EAD) based on various features using supervised learning.
 
+
 ├── data
 │    ├── LCDataDictionary.xlsx (It contain list of all features of dataset)
 │    ├── loan_data_2007_2014.csv (Main CSV File)
@@ -19,4 +20,3 @@ The main aim of this project is to explore the dataset and discuss some interest
 │    ├── Step_5) Preprocessing for LGD and EAD Models.ipynb (Preprocessing for LGD & EAG)
 │    ├── Step_6) LGD and EAD Models.ipynb (Modeling LGD & EAD i.e training models)
 │    ├── Step_7) Expected Loss.ipynb (Calculating expected loss)
-
