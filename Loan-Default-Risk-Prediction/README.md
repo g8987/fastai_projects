@@ -54,9 +54,6 @@ To optimize the selected model's performance, hyperparameter tuning was performe
 The final model achieved a decent F1-score in identifying potential loan defaulters, but there is still room for improvement. Insights were gained from feature importance analysis and partial dependence plots.
 It's important to note that predicting loan defaults is a challenging task and achieving high accuracy for both classes simultaneously can be difficult.
 
-## Authors
-
-- [@jianninapinto](https://www.github.com/jianninapinto)
 
 
 
