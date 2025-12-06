@@ -17,7 +17,7 @@
 
 ### ⚙️ Tech Stack  
 Languages & AI Frameworks:
-Python · PyTorch · TensorFlow · Fast.ai · Scikit-learn · Transformers · Hugging Face
+Python · PyTorch · XGboost · Scikit-learn· Scikit-learn · Transformers · Hugging Face
 
 ML & MLOps:
 MLflow · DVC · Airflow · LangChain · LLMOps · Experiment Tracking · Model Deployment
