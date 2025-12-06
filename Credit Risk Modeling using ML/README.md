@@ -37,8 +37,7 @@ But you can explore the available dataset: https://www.kaggle.com/pragyanbo/a-hi
 * For EAD, I have trained linear regression
 
 ## Tools: pandas, scikit-learn, plotly, Flask
-## Credit
-I have gained all the knowledge through a course i.e https://www.udemy.com/course/credit-risk-modeling-in-python/
+
 ## Score Card (FICO Score 300-850):
-![Score Card](Score_Card.jpg)
+![Score Card]<img width="714" height="1602" alt="image" src="https://github.com/user-attachments/assets/35702025-2bf8-457a-9616-e6db7f6a10be" />
 
