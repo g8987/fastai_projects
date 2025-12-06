@@ -20,3 +20,6 @@ The main aim of this project is to explore the dataset and discuss some interest
 │    ├── Step_5) Preprocessing for LGD and EAD Models.ipynb (Preprocessing for LGD & EAG)
 │    ├── Step_6) LGD and EAD Models.ipynb (Modeling LGD & EAD i.e training models)
 │    ├── Step_7) Expected Loss.ipynb (Calculating expected loss)
+
+
+Deployment:
