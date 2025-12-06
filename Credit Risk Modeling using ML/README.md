@@ -39,5 +39,5 @@ But you can explore the available dataset: https://www.kaggle.com/pragyanbo/a-hi
 ## Tools: pandas, scikit-learn, plotly, Flask
 
 ## Score Card (FICO Score 300-850):
-![Score Card]<img width="714" height="1602" alt="image" src="https://github.com/user-attachments/assets/35702025-2bf8-457a-9616-e6db7f6a10be" />
+<img width="714" height="1602" alt="image" src="https://github.com/user-attachments/assets/35702025-2bf8-457a-9616-e6db7f6a10be" />
 
